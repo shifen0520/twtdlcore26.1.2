@@ -1,0 +1,21 @@
+{
+  "machine.electric_furnace": "电力熔炉",
+
+  "item.twtdlcore.ice": "冰",
+  "item.mmcr.electric_furnace_controller": "电力熔炉控制器",
+
+  "block.twtdlcore.core": "核心",
+
+
+  "itemGroup.yscore_items_tab": "YSCore 物品",
+  "itemGroup.yscore_blocks_tab": "YSCore 方块",
+  "itemGroup.yscore_fluids_tab": "YSCore 流体",
+
+  "examplemod.configuration.title": "示例模组配置",
+  "examplemod.configuration.section.examplemod.common.toml": "示例模组配置",
+  "examplemod.configuration.section.examplemod.common.toml.title": "示例模组配置",
+  "examplemod.configuration.items": "物品列表",
+  "examplemod.configuration.logDirtBlock": "记录泥土方块",
+  "examplemod.configuration.magicNumberIntroduction": "魔法数字说明",
+  "examplemod.configuration.magicNumber": "魔法数字"
+}

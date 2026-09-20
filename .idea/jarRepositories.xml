@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="NeoForge CDN Mirror" />
+      <option name="name" value="NeoForge CDN Mirror" />
+      <option name="url" value="https://neoforged.forgecdn.net/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Mojang Meta Mirror" />
+      <option name="name" value="Mojang Meta Mirror" />
+      <option name="url" value="https://neoforged.forgecdn.net/mojang-meta" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Minecraft Libraries" />
+      <option name="name" value="Minecraft Libraries" />
+      <option name="url" value="https://libraries.minecraft.net/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Aliyun Public" />
+      <option name="name" value="Aliyun Public" />
+      <option name="url" value="https://maven.aliyun.com/repository/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenRepo" />
+      <option name="name" value="MavenRepo" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="NeoForge Official (Fallback)" />
+      <option name="name" value="NeoForge Official (Fallback)" />
+      <option name="url" value="https://maven.neoforged.net/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://cursemaven.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Gtodyssey" />
+      <option name="name" value="Gtodyssey" />
+      <option name="url" value="https://maven.gtodyssey.com/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="HowXu" />
+      <option name="name" value="HowXu" />
+      <option name="url" value="https://maven.howxu.cn/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Latvian (KubeJS/Rhino)" />
+      <option name="name" value="Latvian (KubeJS/Rhino)" />
+      <option name="url" value="https://maven.latvian.dev/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="JitPack" />
+      <option name="name" value="JitPack" />
+      <option name="url" value="https://jitpack.io" />
+    </remote-repository>
+  </component>
+</project>

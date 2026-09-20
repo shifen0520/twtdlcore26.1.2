@@ -1,0 +1,21 @@
+{
+  "machine.electric_furnace": "Electric Furnace",
+
+  "item.twtdlcore.ice": "Ice",
+  "item.mmcr.electric_furnace_controller": "Electric Furnace Controller",
+
+  "block.twtdlcore.core": "Core",
+
+  "itemGroup.yscore_items_tab": "YSCore Items",
+  "itemGroup.yscore_blocks_tab": "YSCore Blocks",
+  "itemGroup.yscore_fluids_tab": "YSCore Fluids",
+
+  "examplemod.configuration.title": "Example Mod Configs",
+  "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
+  "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
+  "examplemod.configuration.items": "Item List",
+  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
+  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "examplemod.configuration.magicNumber": "Magic Number"
+
+}
