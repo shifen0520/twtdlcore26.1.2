@@ -1,0 +1,10 @@
+[21:37:36] [INIT] KubeJS 26.1.2-8.0.4-mmcr; MC 2601 NeoForge
+[21:37:36] [INIT] Loaded plugins:
+[21:37:36] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[21:37:36] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[21:37:36] [INIT] - cn.howxu.mmcr.compat.kubejs.Plugin
+[21:37:37] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[21:37:37] [INFO] Loaded script startup_scripts:main.js in 0.026 s
+[21:37:37] [INFO] Loaded 1/1 KubeJS startup scripts in 0.265 s with 0 errors and 0 warnings
+[21:37:37] [INFO] Validated 0 files in kubejs/assets/ in 1ms
+[21:37:37] [INFO] Validated 0 files in kubejs/data/ in 0ms

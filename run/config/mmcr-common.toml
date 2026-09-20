@@ -1,0 +1,42 @@
+#Ticks between controller structure-check passes
+# Default: 40
+# Range: 1 ~ 600
+machine_check_interval_ticks = 40
+#Maximum blocks removed by one terminal demolish operation
+# Default: 163840
+# Range: 1 ~ 1000000
+terminal_max_demolish_blocks = 163840
+#Maximum structure blocks placed by one controller per tick
+# Default: 256
+# Range: 1 ~ 1000000
+build_blocks_per_tick = 256
+#Maximum age of a pending structure build task
+# Default: 1200
+# Range: 1 ~ 1000000
+build_task_timeout_ticks = 1200
+#Maximum distance at which multiblock preview blocks are rendered
+# Default: 64.0
+# Range: 1.0 ~ 512.0
+preview_render_radius = 64.0
+#Number of batches used to scan a structure across server ticks
+# Default: 10
+# Range: 1 ~ 32
+structure_scan_batches = 10
+#Number of deterministic structure entries checked before each scan batch
+# Default: 16
+# Range: 0 ~ 128
+structure_sentinel_count = 16
+#Whether deterministic structure sentinel checks are enabled
+structure_sentinel_enabled = true
+#Maximum block pattern entries synchronized for one machine structure
+# Default: 524288
+# Range: > 1
+structure_sync_max_blocks = 524288
+#Global multiplier on energy consumption
+# Default: 1.0
+# Range: 0.0 ~ 100.0
+energy_consumption_multiplier = 1.0
+#Maximum machine network requests processed per server tick
+# Default: 1024
+# Range: 1 ~ 1000000
+max_requests_per_tick = 1024
