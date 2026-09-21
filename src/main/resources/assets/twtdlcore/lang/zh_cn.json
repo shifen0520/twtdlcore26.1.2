@@ -1,21 +1,14 @@
 {
   "machine.electric_furnace": "电力熔炉",
 
-  "item.twtdlcore.ice": "冰",
-  "item.mmcr.electric_furnace_controller": "电力熔炉控制器",
+  "itemGroup.twtdlcore.materials": "山海经科技材料",
 
-  "block.twtdlcore.core": "核心",
-
-
-  "itemGroup.yscore_items_tab": "YSCore 物品",
-  "itemGroup.yscore_blocks_tab": "YSCore 方块",
-  "itemGroup.yscore_fluids_tab": "YSCore 流体",
-
-  "examplemod.configuration.title": "示例模组配置",
-  "examplemod.configuration.section.examplemod.common.toml": "示例模组配置",
-  "examplemod.configuration.section.examplemod.common.toml.title": "示例模组配置",
-  "examplemod.configuration.items": "物品列表",
-  "examplemod.configuration.logDirtBlock": "记录泥土方块",
-  "examplemod.configuration.magicNumberIntroduction": "魔法数字说明",
-  "examplemod.configuration.magicNumber": "魔法数字"
+  "item.twtdlcore.iron_ingot": "铁锭",
+  "item.twtdlcore.iron_dust": "铁粉",
+  "item.twtdlcore.iron_plate": "铁板",
+  "item.twtdlcore.iron_gear": "铁齿轮",
+  "item.twtdlcore.copper_ingot": "铜锭",
+  "item.twtdlcore.copper_dust": "铜粉",
+  "item.twtdlcore.copper_plate": "铜板",
+  "item.mmcr.electric_furnace_controller": "电力熔炉控制器"
 }

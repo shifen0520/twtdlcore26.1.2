@@ -1,21 +1,14 @@
 {
   "machine.electric_furnace": "Electric Furnace",
 
-  "item.twtdlcore.ice": "Ice",
-  "item.mmcr.electric_furnace_controller": "Electric Furnace Controller",
+  "itemGroup.twtdlcore.materials": "Materials",
 
-  "block.twtdlcore.core": "Core",
-
-  "itemGroup.yscore_items_tab": "YSCore Items",
-  "itemGroup.yscore_blocks_tab": "YSCore Blocks",
-  "itemGroup.yscore_fluids_tab": "YSCore Fluids",
-
-  "examplemod.configuration.title": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
-  "examplemod.configuration.items": "Item List",
-  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
-  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
-
+  "item.twtdlcore.iron_ingot": "Iron Ingot",
+  "item.twtdlcore.iron_dust": "Iron Dust",
+  "item.twtdlcore.iron_plate": "Iron Plate",
+  "item.twtdlcore.iron_gear": "Iron Gear",
+  "item.twtdlcore.copper_ingot": "Copper Ingot",
+  "item.twtdlcore.copper_dust": "Copper Dust",
+  "item.twtdlcore.copper_plate": "Copper Plate",
+  "item.mmcr.electric_furnace_controller": "Electric Furnace Controller"
 }

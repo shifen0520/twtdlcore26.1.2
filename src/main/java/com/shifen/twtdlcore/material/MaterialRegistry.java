@@ -1,15 +1,17 @@
 package com.shifen.twtdlcore.material;
 
+import com.shifen.twtdlcore.material.data.FluidData;
+import com.shifen.twtdlcore.material.data.MaterialDataType;
+import com.shifen.twtdlcore.material.data.MaterialDataUse;
 import net.minecraft.resources.Identifier;
 
 import java.util.*;
 
-public class MaterialRegistry {
+public final class MaterialRegistry {
     private static final Map<Identifier, Material> REGISTRY = new LinkedHashMap<>();
-
     private static boolean frozen = false;
 
-    private MaterialRegistry(){
+    private MaterialRegistry() {
     }
 
     public static Builder register(String path) {
@@ -23,7 +25,7 @@ public class MaterialRegistry {
     public static Material require(Identifier id) {
         Material material = REGISTRY.get(id);
         if (material == null) {
-            throw new IllegalStateException("on material for" + id);
+            throw new IllegalStateException("no material for " + id);
         }
         return material;
     }
@@ -42,33 +44,24 @@ public class MaterialRegistry {
 
     public static final class Builder {
         private final Identifier id;
-        private int color = 0xFFFFFF;
-        private int mass = 0;
+        private final Map<MaterialDataType<?>, MaterialDataUse<?>> data = new LinkedHashMap<>();
         private final Set<MaterialForm> forms = new LinkedHashSet<>();
+        private FluidData fluidData;
 
         private Builder(Identifier id) {
             this.id = id;
         }
 
-        public Builder color(int color) {
-            this.color = color;
-            return this;
-        }
-
-        public Builder mass(int mass) {
-            this.mass = mass;
-            return this;
-        }
-
-        public Builder form(MaterialForm form) {
-            this.forms.add(form);
+        public Builder data(MaterialDataUse<?> use) {
+            if (data.containsKey(use.type())) {
+                throw new IllegalStateException("duplicate data type " + use.type().id());
+            }
+            data.put(use.type(), use);
             return this;
         }
 
         public Builder forms(MaterialForm... forms) {
-            for (MaterialForm form : forms) {
-                this.forms.add(form);
-            }
+            this.forms.addAll(List.of(forms));
             return this;
         }
 
@@ -79,9 +72,14 @@ public class MaterialRegistry {
             if (REGISTRY.containsKey(id)) {
                 throw new IllegalStateException("duplicate material " + id);
             }
-            Material material = new Material(id, color, mass, Set.copyOf(forms));
+            Material material = new Material(id, data, forms, fluidData);
             REGISTRY.put(id, material);
             return material;
+        }
+        public Builder fluid(int density, int viscosity, int temperature, int tintColor) {
+            this.fluidData = new FluidData(density, viscosity, temperature, tintColor);
+            this.forms.add(MaterialForm.FLUID);   // 自动加 FLUID 形态
+            return this;
         }
     }
 }

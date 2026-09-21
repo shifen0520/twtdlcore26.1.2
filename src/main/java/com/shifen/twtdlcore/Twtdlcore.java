@@ -29,6 +29,7 @@ public class Twtdlcore {
         Materials.init();
         MaterialRegistry.freeze();
         Items.register();
+        Fluids.register();
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

@@ -1,0 +1,8 @@
+/give @s twtdlcore:iron_dust
+/give @s twtdlcore:iron_ingot
+/time add 2d
+/time rate
+/time set minecraft:midnight
+/time query minecraft:moon repetition
+/time add 3000
+/time add 0.5d

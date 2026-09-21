@@ -12,6 +12,9 @@ public final class Items {
     public static void register(){
         for (Material material : MaterialRegistry.registered()) {
             for (MaterialForm form : material.forms()) {
+                if (form == MaterialForm.FLUID) {
+                    continue;   // 流体由单独的注册器处理
+                }
                 String name = material.id().getPath() + "_" + form.suffix();
                 String displayName = material.id().getPath() + " " + form.suffix();
 

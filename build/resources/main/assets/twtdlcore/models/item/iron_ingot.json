@@ -1,6 +1,8 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "twtdlcore:item/material/ingot"
+    "layer0": "twtdlcore:item/material/ingot",
+    "layer1": "twtdlcore:item/material/ingot_secondary",
+    "layer2": "twtdlcore:item/material/ingot_overlay"
   }
 }

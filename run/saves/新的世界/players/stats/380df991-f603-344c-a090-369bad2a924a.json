@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "twtdlcore:iron_ingot": 6,
+      "twtdlcore:iron_dust": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 147622,
+      "minecraft:walk_one_cm": 4861,
+      "minecraft:total_world_time": 84072,
+      "minecraft:leave_game": 10,
+      "minecraft:play_time": 73811,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 73811,
+      "minecraft:drop": 7
+    },
+    "minecraft:dropped": {
+      "twtdlcore:iron_ingot": 6,
+      "twtdlcore:iron_dust": 1
+    }
+  },
+  "DataVersion": 4790
+}

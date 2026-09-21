@@ -1,0 +1,15 @@
+[11:10:10] [INIT] KubeJS 26.1.2-8.0.4-mmcr; MC 2601 NeoForge
+[11:10:10] [INIT] Loaded plugins:
+[11:10:10] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[11:10:10] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[11:10:10] [INIT] - cn.howxu.mmcr.compat.kubejs.Plugin
+[11:10:10] [INFO] server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[11:10:10] [INFO] Loaded script server_scripts:main.js in 0.0 s
+[11:10:10] [INFO] Loaded 1/1 KubeJS server scripts in 0.016 s with 0 errors and 0 warnings
+[11:10:11] [INFO] Initializing recipe event...
+[11:10:11] [INFO] Processing recipes...
+[11:10:11] [INFO] Found 2,110 recipes (skipped 64) in 125.7 ms
+[11:10:11] [INFO] Posted recipe events in 1 ms
+[11:10:11] [INFO] KubeJS modifications to recipe manager finished in 4.292 ms
+[11:10:11] [INFO] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 195 ms in total
+[11:10:12] [INFO] Server resource reload complete!
